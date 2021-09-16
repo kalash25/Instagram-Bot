@@ -5,7 +5,6 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
 import urllib
 import time
-
 DRIVER_PATH = 'C:\path\chromedriver.exe'
 driver = webdriver.Chrome(executable_path=DRIVER_PATH)
 
